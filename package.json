@@ -9,6 +9,18 @@
         "packages/*"
     ],
     "devDependencies": {
-        "prettier": "^1.14.2"
+        "@babel/core": "^7.0.1",
+        "@babel/preset-env": "^7.0.0",
+        "@babel/preset-typescript": "^7.0.0",
+        "@types/jest": "^23.3.2",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-jest": "^23.6.0",
+        "husky": "^1.0.0-rc.14",
+        "jest": "^23.6.0",
+        "lerna": "^3.4.0",
+        "mkdirp": "^0.5.1",
+        "prettier": "^1.14.2",
+        "rimraf": "^2.6.2",
+        "typescript": "^3.0.3"
     }
 }
