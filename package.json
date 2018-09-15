@@ -1,0 +1,14 @@
+{
+    "name": "syoki",
+    "version": "1.0.0-wip.0",
+    "repository": "https://github.com/miyamarisubs/syoki.git",
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://t.me/miyaokamarina)",
+    "license": "MIT",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "devDependencies": {
+        "prettier": "^1.14.2"
+    }
+}
