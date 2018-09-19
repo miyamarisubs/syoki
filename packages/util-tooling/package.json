@@ -1,0 +1,15 @@
+{
+    "name": "@syoki/util-tooling",
+    "version": "1.0.0-wip.0",
+    "description": "Build scripts for Syoki.",
+    "repository": "https://github.com/miyamarisubs/syoki/tree/master/packages/util-tooling",
+    "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://t.me/miyaokamarina)",
+    "license": "MIT",
+    "private": true,
+    "bin": {
+        "syoki-this": "./bin/this.js",
+        "syoki-root": "./bin/root.js",
+        "in-pkg": "./bin/in-pkg.js",
+        "new-pkg": "./bin/new-pkg.js"
+    }
+}

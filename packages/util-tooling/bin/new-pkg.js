@@ -1,7 +1,7 @@
 const { writeFileSync } = require('fs');
 const { sync: mkdirpSync } = require('mkdirp');
 
-const { version } = require('../lerna');
+const { version } = require('../../../lerna');
 
 const [, , name, description] = process.argv;
 
@@ -18,11 +18,7 @@ writeFileSync(
     "author": "Marina Miyaoka <miyaokamarina@gmail.com> (https://t.me/miyaokamarina)",
     "license": "MIT",
     "scripts": {
-        "build": "node ../../bin/build.js",
-        "watch": "node ../../bin/watch.js",
-        "lint": "node ../../bin/lint.js",
-        "build-ci": "node ../../bin/build-ci.js",
-        "fix": "node ../../bin/fix.js"
+        "this": "syoki-this"
     },
     "dependencies": {
         "@babel/runtime": "^7.0.0"

@@ -4,7 +4,7 @@ module.exports = {
     },
     roots: ['<rootDir>/packages/'],
     moduleNameMapper: {
-        '@syoki/(.*)$': '<rootDir>/packages/$1',
+        '@syoki/(.*)$': '<rootDir>/../$1',
     },
     testEnvironment: 'node',
     testRegex: '\\.spec\\.ts$',
